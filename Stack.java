@@ -33,10 +33,10 @@ public class Stack
 			return -1;
 		}
 		int poppedValue=array[top--];
-		System.out.println(Popped:+poppedValue);
+		System.out.println("Popped:" + poppedValue);
 		return poppedValue;
 	}
-	public intpeek()
+	public int peek()
 	{
 		if(isEmpty())
 		{
@@ -55,7 +55,7 @@ public class Stack
 		System.out.println("Stack:");
 		for(int i=0;i<=top;i++)
 		{
-				Sytem.out.println(array[i]+"");
+				System.out.println(array[i]+"");
 		}
 		System.out.println();
 	}
@@ -68,7 +68,7 @@ public static void main(String[] args)
 			Stack.display();
 			Stack.pop();	
 			Stack.display();
-			System.out.println("Top element"+stack.peek());
+			System.out.println("Top element"+Stack.peek());
 	}
 }
 	
